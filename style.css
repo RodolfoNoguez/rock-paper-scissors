@@ -1,0 +1,45 @@
+body {
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: 'comic sans MS' ;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 400px 20px 400px;
+}
+button{
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    border-radius: 100%;
+    border-width: 6px;
+    border-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 1000;
+    display: flex;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}

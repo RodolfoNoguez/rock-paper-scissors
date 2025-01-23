@@ -98,5 +98,3 @@ function startOver(){
 document.getElementById("RockButton").addEventListener("click", () => {playRound("rock", getComputerChoice())});
 document.getElementById("PaperButton").addEventListener("click", () => {playRound("paper", getComputerChoice())});
 document.getElementById("ScissorsButton").addEventListener("click", () => {playRound("scissors", getComputerChoice())});
-
-
